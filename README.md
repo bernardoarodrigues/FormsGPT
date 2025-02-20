@@ -1,7 +1,7 @@
 # FormsGPT
 
 ## Overview
-Fill out forms with the help of an AI assistant
+Fill out forms with the help of an AI assistant. [Demo Video](https://youtu.be/WtXgcRbDnfU?si=tGVoqWcWY0mya4h5)
 
 ![Demo](demo/image.png)
 
