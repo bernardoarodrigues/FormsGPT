@@ -8,7 +8,6 @@ import { Header } from "@/components/custom/header";
 import { v4 as uuidv4 } from 'uuid';
 import { sendPrompt } from "@/api/openai";
 import { JSON_PROMPT, DIALOG_PROMPT, FINAL_TOKEN, SYSTEM_PROMPT } from "@/prompts";
-import Forms from "@/components/custom/forms";
 
 export function Chat() {
   const [messagesContainerRef, messagesEndRef] = useScrollToBottom<HTMLDivElement>();

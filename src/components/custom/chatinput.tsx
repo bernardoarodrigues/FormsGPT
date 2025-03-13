@@ -52,7 +52,7 @@ export const ChatInput = ({ question, setQuestion, onSubmit, isLoading, finalJSO
 
             let response = await sendPrompt([], messageText, image);
             let formData = JSON.parse(response.content); 
-
+ 
             const filledPdf = pdfform().transform(pdfData, formData);
             filledPdf.name = pdf.name;
             const blob = new Blob([filledPdf], { type: 'application/pdf' });
